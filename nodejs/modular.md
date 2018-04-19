@@ -8,8 +8,9 @@ var hello = require('./hello');
 hello.world();
 
 // hello.js
-var hello = require('./hello');
-hello.world();
-
+exports.world = function() {
+  console.log('hello world')
+}
 node main
+、、 
 ```
