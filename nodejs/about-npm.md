@@ -18,3 +18,9 @@ npm install express -g   # 全局安装
 npm install express
 var express = require('express');
 ```
+
+位于express文件夹下有一个`package.json`文件。
+
+* 卸载模块
+
+`npm uninstall express`
