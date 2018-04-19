@@ -60,3 +60,16 @@ console.log('连接结束');
 
 * emit(event)
 按参数的顺序执行每个监听器，如果事件有注册监听返回 true，否则返回 false。
+
+---
+
+* listenerCount(emitter, event)
+返回指定事件的监听器数量。
+
+```js
+var events = require('events');
+var eventEmitter = new events.EventEmitter();
+
+var eventListeners = require('events').EventEmitter.listenerCount(eventEmitter,'connection');
+```
+
