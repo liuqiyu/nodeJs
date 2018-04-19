@@ -7,3 +7,18 @@ Node.js 的每一个 API 都是`异步`的，并作为一个`独立线程运行`
 Node.js 基本上所有的事件机制都是用`设计模式中观察者模式`实现。
 
 Node.js 单线程类似进入一个while(true)的事件循环，直到没有事件观察者退出，每个异步事件都生成一个事件观察者，如果有事件发生就调用该回调函数.
+
+### 实例
+
+```js
+var events = require('events');
+
+var eventEmitter = new events.EventEmitter();
+
+var connect = function func(){
+    console.log('开始连接');
+}
+
+eventEmitter.on('connent1', connect);
+
+```
