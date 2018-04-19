@@ -37,3 +37,26 @@ console.log('连接结束');
 连接中。。。
 连接结束
 ```
+
+### api
+
+* addListener(event, listener)
+为指定事件添加一个监听器到监听器数组的尾部。
+
+* on(event, listener)
+为指定事件注册一个监听器，接受一个字符串 event 和一个回调函数。
+
+* once(event, listener)
+单次监听
+
+* removeListener(event, listener)
+移除指定事件的某个监听器，监听器必须是该事件已经注册过的监听器。
+
+* removeAllListeners([event])
+移除所有的监听器，如果指定事件，则移除指定事件的所有监听器。
+
+* setMaxListeners(n)
+默认情况下， EventEmitters 如果你添加的监听器超过 10 个就会输出警告信息。 setMaxListeners 函数用于提高监听器的默认限制的数量。
+
+* emit(event)
+按参数的顺序执行每个监听器，如果事件有注册监听返回 true，否则返回 false。
