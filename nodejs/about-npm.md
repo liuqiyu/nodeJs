@@ -12,7 +12,7 @@ npm -v
 * 使用 npm 命令安装模块
 
 ```
-npm install express          # 本地安装
+npm install express      # 本地安装
 npm install express -g   # 全局安装
 
 npm install express
