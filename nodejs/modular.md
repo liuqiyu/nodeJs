@@ -12,5 +12,5 @@ exports.world = function() {
   console.log('hello world')
 }
 node main
-、、 
+// hello world
 ```
