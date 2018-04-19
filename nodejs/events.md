@@ -70,6 +70,17 @@ console.log('连接结束');
 var events = require('events');
 var eventEmitter = new events.EventEmitter();
 
+// 监听器 #1
+var listener1 = function listener1() {
+   console.log('监听器 listener1 执行。');
+}
+
+// 监听器 #2
+var listener2 = function listener2() {
+  console.log('监听器 listener2 执行。');
+}
+
+
 var eventListeners = require('events').EventEmitter.listenerCount(eventEmitter,'connection');
 console.log(eventListeners )
 ```
