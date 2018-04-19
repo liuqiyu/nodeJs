@@ -8,4 +8,5 @@
 * [About npm](nodejs/about-npm.md)
 * [Callback](nodejs/callback.md)
 * [Events](nodejs/events.md)
+* [Modular](nodejs/modular.md)
 
