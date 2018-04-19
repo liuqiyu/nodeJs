@@ -23,6 +23,8 @@ var data = fs.readFileSync('input.txt');
 console.log(data.toString());
 console.log("程序执行结束!");
 
+node main.js
+
 // 一起学习node.js
 // 程序执行结束
 ```
