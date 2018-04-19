@@ -20,7 +20,7 @@ var connect = function func(){
 }
 
 var connect2 = function func1() {
-    console.log('连接中');
+    console.log('连接中。。。');
 }
 
 eventEmitter.on('connent1', connect);
