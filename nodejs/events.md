@@ -80,7 +80,11 @@ var listener2 = function listener2() {
   console.log('监听器 listener2 执行。');
 }
 
+// 绑定 connection 事件，处理函数为 listener1 
+eventEmitter.addListener('connection', listener1);
 
+// 绑定 connection 事件，处理函数为 listener2
+eventEmitter.on('connection', listener2);
 var eventListeners = require('events').EventEmitter.listenerCount(eventEmitter,'connection');
 console.log(eventListeners )
 ```
