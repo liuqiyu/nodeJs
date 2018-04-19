@@ -24,3 +24,15 @@ var express = require('express');
 * 卸载模块
 
 `npm uninstall express`
+
+* 更新模块
+
+`npm update express`
+
+* 创建模块
+
+`npm init`
+
+* 发布模块
+
+`npm publish`
