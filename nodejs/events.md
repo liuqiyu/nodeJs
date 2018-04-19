@@ -19,6 +19,12 @@ var connect = function func(){
     console.log('开始连接');
 }
 
+var connect2 = function func1() {
+    
+}
+
 eventEmitter.on('connent1', connect);
+
+
 
 ```
