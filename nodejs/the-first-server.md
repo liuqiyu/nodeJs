@@ -28,3 +28,12 @@ server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
 ```
+
+以上代码我们完成了一个可以工作的 HTTP 服务器。
+使用 node 命令执行以上的代码：
+
+```
+node server.js
+Server running at http://127.0.0.1:8888/
+
+```
