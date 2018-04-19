@@ -10,4 +10,6 @@ hello.world();
 // hello.js
 var hello = require('./hello');
 hello.world();
+
+node main
 ```
