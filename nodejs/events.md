@@ -71,5 +71,6 @@ var events = require('events');
 var eventEmitter = new events.EventEmitter();
 
 var eventListeners = require('events').EventEmitter.listenerCount(eventEmitter,'connection');
+console.log(eventListeners )
 ```
 
