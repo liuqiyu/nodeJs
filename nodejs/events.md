@@ -27,9 +27,9 @@ var connect2 = function func1() {
 eventEmitter.on('connent1', connect);
 eventEmitter.on('connect2', connect2);
 
+eventEmitter.emit('connent1');
 
-
-
+console.log('连接结束');
 
 
 
