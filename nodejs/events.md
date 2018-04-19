@@ -24,7 +24,7 @@ var connect2 = function func1() {
 }
 
 eventEmitter.on('connent1', connect);
-eventEmitter.on('connect2 ', connect2 );
+eventEmitter.on('connect2', connect2);
 
 
 
