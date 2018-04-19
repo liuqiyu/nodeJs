@@ -32,5 +32,8 @@ eventEmitter.emit('connent1');
 console.log('连接结束');
 
 
-
+// 输出
+开始连接
+连接中。。。
+连接借宿
 ```
