@@ -18,4 +18,5 @@
   * [dist文件输出](webpack/fu-zhi-html.md)
   * [source-map提示](webpack/source-mapti-shi.md)
   * [观察模式](webpack/guan-cha-mo-shi.md)
+  * [实时重新加载](webpack/shi-shi-zhong-xin-jia-zai.md)
 
