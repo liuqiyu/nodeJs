@@ -41,5 +41,7 @@ package.json
     }
   }
 
+
+// npm run build
 ```
 
