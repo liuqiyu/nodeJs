@@ -13,4 +13,5 @@
 
 * [Introduction](introduction.md)
 * [Starting](starting.md)
+* [Resources](resources.md)
 
