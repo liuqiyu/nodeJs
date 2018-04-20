@@ -2,7 +2,7 @@
 
 study webpack
 
-* 安装
+* 本地安装
 
 `npm install --save-dev webpack`
 
