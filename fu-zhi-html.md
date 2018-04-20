@@ -24,3 +24,5 @@ const path = require('path');
     }
   };
 ```
+
+执行 webpack 后我们会发现，在dist文件夹下出现Index.html
