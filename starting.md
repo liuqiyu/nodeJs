@@ -42,6 +42,6 @@ package.json
   }
 
 
-// npm run build
+// npm run build => webpack
 ```
 
