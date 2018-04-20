@@ -14,5 +14,5 @@
 * [Introduction](introduction.md)
 * [Starting](starting.md)
 * [Resources](resources.md)
-* [复制html](fu-zhi-html.md)
+* [dist文件输出](fu-zhi-html.md)
 
