@@ -13,4 +13,6 @@ module.exports = {
         path: path.resolve(__dirname, 'dist')
     }
 }
+
+webpack
 ```
