@@ -16,4 +16,5 @@
   * [Resources](webpack/resources.md)
   * [Starting](webpack/starting.md)
   * [dist文件输出](webpack/fu-zhi-html.md)
+  * [source-map提示](webpack/source-mapti-shi.md)
 
