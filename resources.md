@@ -15,6 +15,7 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
+  
   // 这里是css loader
   module: {
     rules: [
