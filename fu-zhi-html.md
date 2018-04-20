@@ -5,6 +5,7 @@
 ```js
 npm install --save-dev html-webpack-plugin
 
+// webpack.config.js
 const path = require('path');
 + const HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -34,6 +35,7 @@ const path = require('path');
 ```js
 npm install clean-webpack-plugin --save-dev
 
+// webpack.config.js
   const path = require('path');
   const HtmlWebpackPlugin = require('html-webpack-plugin');
 + const CleanWebpackPlugin = require('clean-webpack-plugin');
