@@ -39,15 +39,5 @@ var sql = 'select * from user';
 #### 插入语句
 
 ```js
-var sql = xampp\htdocs\Node\mysql>node app
-The solution is:  OkPacket {
-  fieldCount: 0,
-  affectedRows: 1,
-  insertId: 0,
-  serverStatus: 2,
-  warningCount: 0,
-  message: '',
-  protocol41: true,
-  changedRows: 0 }
-
+var sql = 'INSERT INTO `user` (`id`, `name`, `gender`, `age`, `province`, `city`, `area`, `address`) VALUES ('2', 'sad', '2', '32', '打打', '3123', '3213', '1')';
 ```
