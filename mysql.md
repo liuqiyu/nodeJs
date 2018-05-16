@@ -41,3 +41,5 @@ var sql = 'select * from user';
 ```js
 var sql = 'INSERT INTO `user` (`id`, `name`, `gender`, `age`, `province`, `city`, `area`, `address`) VALUES ('2', 'sad', '2', '32', '打打', '3123', '3213', '1')';
 ```
+
+#### 更新数据
