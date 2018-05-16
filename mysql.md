@@ -7,6 +7,7 @@
 ### 连接数据库
 
 ```js
+// app.js
 var mysql = require('mysql');
 
 var connection = mysql.createConnection({
@@ -23,4 +24,6 @@ connection.query(sql, function(eror, results, fields) {
     if (error) throw error;
     console.log(result);
 })
+
+// node app.js
 ```
