@@ -35,3 +35,19 @@ connection.query(sql, function(eror, results, fields) {
 
 var sql = 'select * from user';
 ```
+
+#### 插入语句
+
+```js
+var sql = xampp\htdocs\Node\mysql>node app
+The solution is:  OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+```
