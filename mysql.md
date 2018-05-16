@@ -49,7 +49,9 @@ var sql = 'INSERT INTO `user` (`id`, `name`, `gender`, `age`, `province`, `city`
 
 #### 删除数据
 
-
+```js
+var delSql = 'DELETE FROM websites where id=6';
+```
 
 
 
