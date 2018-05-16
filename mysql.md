@@ -15,4 +15,6 @@ var connection = mysql.createConnection({
     password: '',
     darabase: 'test'
 });
+
+conection.connect();
 ```
