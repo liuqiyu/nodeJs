@@ -14,6 +14,7 @@ var connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: '',
+     port: '3306',
     darabase: 'test'
 });
 
@@ -43,3 +44,16 @@ var sql = 'INSERT INTO `user` (`id`, `name`, `gender`, `age`, `province`, `city`
 ```
 
 #### 更新数据
+
+...
+
+#### 删除数据
+
+
+
+
+
+
+
+
+
