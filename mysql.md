@@ -27,3 +27,11 @@ connection.query(sql, function(eror, results, fields) {
 
 // node app.js
 ```
+
+#### 查询数据
+
+```js
+// 更换上面sql语句
+
+var sql = 'select * from user';
+```
