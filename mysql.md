@@ -18,7 +18,7 @@ var connection = mysql.createConnection({
     darabase: 'test'
 });
 
-conectconnection ion.connect(); // 创建连接
+connection.connect(); // 创建连接
 
 var sql = '---------';
 connection.query(sql, function(eror, results, fields) {
