@@ -50,7 +50,7 @@ var sql = 'INSERT INTO `user` (`id`, `name`, `gender`, `age`, `province`, `city`
 #### 删除数据
 
 ```js
-var delSql = 'DELETE FROM userwhere id=2';
+var delSql = 'DELETE FROM user where id=2';
 ```
 
 
