@@ -40,7 +40,7 @@
     ```js
     var fs = require('fs');
     
-    fs.rmdir('input.txt', function(error, files){
+    fs.rmdir('./../demo1', function(error, files){
         if(error){
             return console.error(error);
         }
