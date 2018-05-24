@@ -2,7 +2,7 @@
 
 #### 语法
 
-`fs.unlink(path, callback)`
+`fs.mkdir(path[, mode], callback)`
 
 * 参数：
     * path: 文件
