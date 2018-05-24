@@ -2,7 +2,7 @@
 
 #### 语法
 
-`fs.read(fd, buffer, offset, length, position, callback)`
+`s.unlink(path, callback)`
 
 * 参数：
     * fd: fs.open() 方法返回的文件描述符。
