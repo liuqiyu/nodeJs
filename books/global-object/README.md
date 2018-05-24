@@ -14,4 +14,4 @@ console.log(__dirname);
 // E:\node\demo8\
 ```
 
-* 
+* `process`：global对象的属性
