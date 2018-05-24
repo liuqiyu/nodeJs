@@ -16,6 +16,8 @@
         if(error){
             return console.error(error);
         }
+        
+        console.log('文件查出成功');
     })
     ```
 
