@@ -18,7 +18,7 @@
             return console.error(error);
         }
         
-        console.log();
+        console.log(写入完成！);
     });
     ```
 
