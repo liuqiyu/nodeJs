@@ -17,7 +17,7 @@
             return console.error(error);
         }
         
-        console.log('文件查出成功');
+        console.log('文件查出成功！');
     })
     ```
 
