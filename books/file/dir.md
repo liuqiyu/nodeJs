@@ -44,10 +44,7 @@
         if(error){
             return console.error(error);
         }
-        
-        files.forEach(function(file){
-            console.log(file);
-        })
+        console.log('目录删除完成');
     })
     ```
 
