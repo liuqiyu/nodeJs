@@ -14,6 +14,11 @@
     var fs = require('fs');
     
     fs.writeFile('input.txt', '我是写入！', function(error){
-    })
+        if(error) {
+            return  console.error(error);
+        }
+        
+        console.log();
+    });
     ```
 
