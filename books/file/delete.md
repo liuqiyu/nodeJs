@@ -2,7 +2,7 @@
 
 #### 语法
 
-`s.unlink(path, callback)`
+`fs.unlink(path, callback)`
 
 * 参数：
     * fd: fs.open() 方法返回的文件描述符。
