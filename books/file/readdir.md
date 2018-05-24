@@ -12,12 +12,14 @@
     ```js
     var fs = require('fs');
     
-    fs.unlink('input.txt', function(error){
+    fs.readdir('input.txt', function(error, files){
         if(error){
             return console.error(error);
         }
         
-        console.log('文件查出成功！');
+        files.forEach(function(file){
+            console.log(file);
+        })
     })
     ```
 
