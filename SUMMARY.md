@@ -9,4 +9,5 @@
   * [读取文件](books/file/read.md)
   * [删除文件](books/file/delete.md)
   * [写入文件](books/file/write.md)
+  * [目录操作](books/file/dir.md)
 
