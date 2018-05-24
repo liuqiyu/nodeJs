@@ -34,7 +34,7 @@
 
 * 参数：
     * path: 文件
-    * callback： 回调 -> 错误参数, files -> 文件列表
+    * callback： 回调 -> 错误参数
     
 * 实例
     ```js
