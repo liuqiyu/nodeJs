@@ -6,18 +6,18 @@
 
 * 参数：
     * path: 文件
+    * mode - 设置目录权限，默认为 0777。
     * callback： 回调，错误参数
     
 * 实例
     ```js
     var fs = require('fs');
     
-    fs.unlink('input.txt', function(error){
+    fs.mkdir('./dd', function(error){
         if(error){
             return console.error(error);
         }
-        
-        console.log('文件查出成功！');
-    })
+        console.log('目录创建成功！');
+    });
     ```
 
