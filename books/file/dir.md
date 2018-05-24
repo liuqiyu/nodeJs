@@ -31,6 +31,7 @@
 #### 语法
 
 `fs.readdir(path, callback)`
+不可删除不为空目录
 
 * 参数：
     * path: 文件
