@@ -2,6 +2,8 @@
 
 表达性状态传递(Representational State Transfer),是Roy Fielding博士在2000年他的博士论文中提出来的一种软件架构风格。
 
+<hr>
+
 #### HTTP方法
 
 * GET - 用于获取数据
