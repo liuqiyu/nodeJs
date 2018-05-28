@@ -7,6 +7,7 @@
 ##### 技术栈
 
 * cheerio: `npm install cheerio --save`
+  *  Node.js 版的jQuery
 * iconv-lite: `npm install iconv-lite--save`
   * 解决爬取gb2312网页出现乱码
 
