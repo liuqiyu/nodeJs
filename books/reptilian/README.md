@@ -8,6 +8,7 @@
 
 * cheerio: `npm install cheerio --save`
 * iconv-lite: `npm install iconv-lite--save`
+  * 解决爬取gb2312网页出现乱码
 
 ##### 开始
 
