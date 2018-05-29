@@ -5,6 +5,9 @@
 
 ## 目录
 
+* 技术栈
+* 安装`express-generator`express应用生成器
+
 <hr>
 
 ## 技术栈
