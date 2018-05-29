@@ -12,9 +12,7 @@
 * 前端: `vue`
 * 后端：`node.js`
 
-## 技术栈
-
-
+<hr>
 
 ## 安装`express-generator`express应用生成器
 
