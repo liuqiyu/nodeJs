@@ -26,3 +26,5 @@ npm install
 npm start
 ```
 
+默认安装后，可以在浏览器访问`http://localhost:3000`
+
