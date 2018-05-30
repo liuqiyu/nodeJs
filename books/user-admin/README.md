@@ -51,7 +51,22 @@ npm start
    user            : 'root',
    password        : '',
    database        : 'test'
- })
+ });
+ 
+ db.query = function(sql, callback) {
+   if (!sql) {
+     callback();
+     return;
+   }
+   
+   pool.query(sql, function(err, rows, fields) {
+     if (err) {
+       console.log(err);
+      callback(err, null);
+      return;
+     }
+   })
+ }
 ```
 
 
