@@ -75,3 +75,7 @@ module.exports = router;
 var addUser = require('./routes/addUser');
 app.use('/addUser', addUser);
 ```
+
+<hr>
+
+然后前端直接调用接口`http://localhost:4000/addUser`
