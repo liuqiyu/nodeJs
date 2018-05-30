@@ -71,6 +71,8 @@ npm start
  }
 ```
 
+module.exports = db;
+
 
 
 
