@@ -62,8 +62,8 @@ npm start
    pool.query(sql, function(err, rows, fields) {
      if (err) {
        console.log(err);
-      callback(err, null);
-      return;
+        callback(err, null);
+        return;
      }
    })
  }
