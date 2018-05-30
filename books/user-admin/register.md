@@ -82,5 +82,6 @@ app.use('/addUser', addUser);
 然后前端直接调用接口`http://localhost:4000/addUser`
 
 <hr>
+* 注册界面
 
 ![](/assets/D@DV_7DO7673OI]05E50Q33.png)
