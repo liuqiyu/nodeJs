@@ -31,3 +31,30 @@ npm start
 
 默认安装后，可以在浏览器访问`http://localhost:3000`
 
+
+### 使用`sql`,并封装方法
+
+* 安装 `npm install mysql --save`
+
+* 封装方法: `dbCommon.js`
+```js
+/**
+ * 封装 `mysql`连接
+ * @type {{}}
+ */
+ 
+ var db = {};
+ var mysql = require('mysql');
+ var pool = mysql.createPool({
+   connectionLimit : 10,
+  host            : 'localhost',
+  user            : 'root',
+  password        : '',
+  database        : 'test'
+ })
+```
+
+
+
+
+

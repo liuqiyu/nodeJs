@@ -13,4 +13,5 @@
 * [RESTful API](books/RESTful API/README.md)
 * [撸一个爬虫系统](books/reptilian/README.md)
 * [用户管理系统](books/user-admin/README.md)
+  * [注册](books/user-admin/zhu-ce-jie-kou.md)
 
