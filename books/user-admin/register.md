@@ -68,3 +68,10 @@ function addUser(req, res) {
 module.exports = router;
 
 ```
+
+* 在app.js中添加路由
+
+```js
+var addUser = require('./routes/addUser');
+app.use('/addUser', addUser);
+```
