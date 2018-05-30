@@ -6,12 +6,8 @@
 
 <hr>
 * 代码如下：`addUser.js`
-```js
-/**
- * 用户注册
- * @type {*|createApplication}
-*/
 
+```js
 var express = require('express');
 var router = express.Router();
 var db = require('./../utils/dbCommon');
