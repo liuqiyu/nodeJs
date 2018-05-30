@@ -79,3 +79,7 @@ app.use('/addUser', addUser);
 <hr>
 
 然后前端直接调用接口`http://localhost:4000/addUser`
+
+<hr>
+
+![](/assets/D@DV_7DO7673OI]05E50Q33.png)
