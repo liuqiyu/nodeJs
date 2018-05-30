@@ -33,8 +33,6 @@ npm start
 
 <hr>
 
-
-
 ### 使用`sql`,并封装方法
 
 * 安装 `npm install mysql --save`
