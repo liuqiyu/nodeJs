@@ -39,11 +39,7 @@ npm start
 
 * 封装方法: `dbCommon.js`
 ```js
-/**
- * 封装 `mysql`连接
- * @type {{}}
- */
- 
+   
  var db = {};
  var mysql = require('mysql');
  var pool = mysql.createPool({
