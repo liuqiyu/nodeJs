@@ -6,7 +6,7 @@
 
 <hr>
 
-* 代码如下：`addUser.js`
+### 注册代码如下：`addUser.js`
 
 ```js
 var express = require('express');
