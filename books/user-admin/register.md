@@ -70,7 +70,7 @@ module.exports = router;
 
 ```
 
-* 在app.js中添加路由
+### 在app.js中添加路由
 
 ```js
 var addUser = require('./routes/addUser');
@@ -79,7 +79,7 @@ app.use('/addUser', addUser);
 
 <hr>
 
-* 注册界面
+### 注册界面
 
 ![](/assets/D@DV_7DO7673OI]05E50Q33.png)
 
