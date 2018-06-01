@@ -2,7 +2,7 @@
 
 当用户未注册账号时，需要注册。
 
-接口逻辑：接收客户端传输过来的数据，查找该数据用户名是否存在`var selectSql = "select * from userinfo where username = '"+ req.body.username + "'";`。如果用户名存在，则返回已存在提示。如果不存在，触发新增用户的方法，`  var addSql = "INSERT INTO `userinfo` (`username`, `password`, `gender`, `age`) VALUES ('" + username + "', '"+ password +"', '" + gender + "', '" + age + "')";`。
+接口逻辑：接收客户端传输过来的数据，查找该数据用户名是否存在**var selectSql = "select * from userinfo where username = '"+ req.body.username + "'";**。如果用户名存在，则返回已存在提示。如果不存在，触发新增用户的方法，**var addSql = "INSERT INTO `userinfo` (`username`, `password`, `gender`, `age`) VALUES ('" + username + "', '"+ password +"', '" + gender + "', '" + age + "')"**;。
 
 <hr>
 
