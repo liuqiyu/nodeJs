@@ -14,4 +14,5 @@
 * [撸一个爬虫系统](books/reptilian/README.md)
 * [用户管理系统](books/user-admin/README.md)
   * [注册](books/user-admin/register.md)
+* [优雅使用ES6](you-ya-shi-yong-es6.md)
 
