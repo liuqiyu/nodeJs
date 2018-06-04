@@ -21,4 +21,6 @@ npm install babel-preset-es2015 --save
     "start": "node ./bin/www",
     "start1": "babel-node ./bin/www"
   },
+  
+// npm run start1
 ```
