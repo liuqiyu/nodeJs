@@ -62,7 +62,7 @@ var fs = require('fs');
 
 var data = '我是你的版本';
 
-var writerStream = fs.createWriteStream('demo16/sample.txt');
+var writerStream = fs.createWriteStream('sample.txt');
 
 writerStream.write(data, 'UTF8');
 
