@@ -17,4 +17,5 @@
 * [优雅使用ES6](books/use-ES6/README.md)
 * [stream-流](streamliu.md)
 * [http](http.md)
+* [crypto模块 - 加密和哈希算法](cryptomo-kuai-jia-mi-he-ha-xi-suan-fa.md)
 
