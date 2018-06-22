@@ -55,7 +55,7 @@ console.log('程序执行完毕！');
 
 ### 文件流写入
 
-*fs.createWriteStream()*
+**fs.createWriteStream()**
 
 ```js
 var fs = require('fs');
