@@ -77,6 +77,9 @@ writerStream.on('error', function(error) {
 });
 
 console.log('程序执行完毕');
+
+// 程序执行完毕
+// 写入完成！
 ```
 
 
