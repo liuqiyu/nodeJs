@@ -53,6 +53,34 @@ console.log('程序执行完毕！');
 
 <hr/>
 
+### 文件流写入
+
+*fs.createWriteStream()*
+
+```js
+var fs = require('fs');
+
+var data = '我是你的版本';
+
+var writerStream = fs.createWriteStream('demo16/sample.txt');
+
+writerStream.write(data, 'UTF8');
+
+writerStream.end();
+
+writerStream.on('finish', function() {
+  console.log('写入完成！')
+});
+
+writerStream.on('error', function(error) {
+  console.log('error', error)
+});
+
+console.log('程序执行完毕');
+```
+
+
+
 
 
 
