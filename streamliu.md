@@ -86,6 +86,17 @@ console.log('程序执行完毕');
 
 ### 管道与链式流
 
+#### 1、压缩文件
+
+```js
+var fs = require('fs');
+var zlib = require('zlib');
+
+fs.createReadStream('input.txt').pipe(zlib.createGzip()).pipe(fs.createWriteStream('input.txt.gz'));
+
+console.log('文件压缩完成')
+```
+
 
 
 
