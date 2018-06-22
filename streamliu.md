@@ -97,6 +97,8 @@ fs.createReadStream('input.txt')
       .pipe(fs.createWriteStream('input.txt.gz'));
 
 console.log('文件压缩完成')
+
+// 生成input.txt.gz压缩文件
 ```
 
 
