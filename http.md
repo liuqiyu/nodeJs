@@ -30,5 +30,4 @@ Url {
   pathname: '/path/to/file',
   path: '/path/to/file?query=string',
   href: 'http://user:pass@host.com:8080/path/to/file?query=string#hash' }
-
 ```
