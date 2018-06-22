@@ -24,3 +24,27 @@
 
 *fs.createReadStream()*
 
+```js
+var fs = require('fs');
+
+var data = '';
+
+var readerStream = fs.createReadStream('sample.txt');
+
+readerStream.setEncoding('UTF8');
+
+readerStream.on('data', function(chunk) {
+  data += chunk;
+});
+
+readerStream.on('end', function() {
+  console.log(data);
+});
+
+readerStream.on('error', function(error) {
+  console.log('error', error)
+});
+
+console.log('程序执行完毕！');
+```
+
