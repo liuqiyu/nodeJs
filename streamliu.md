@@ -22,7 +22,7 @@
 
 ### 文件流读取
 
-*fs.createReadStream()*
+**fs.createReadStream()**
 
 ```js
 var fs = require('fs');
