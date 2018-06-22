@@ -10,7 +10,7 @@
     * Readable - 可读操作
     * Writable - 可写操作
     * Duplex - 可读可写操作
-    * Transform - 操作被写入数据，然后读出结果
+    * Transform - 操作被写入数据，然后读出结果,比如`zlib.createDeflate()`（数据压缩/解压）。
     
 * 所有的对象都是EventEmitter的实例。常用的事件有：
     * data - 有数据可读取时触发
