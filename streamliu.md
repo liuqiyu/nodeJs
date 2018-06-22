@@ -113,6 +113,8 @@ fs.createReadStream('input.txt.gz')
       .pipe(fs.createWriteStream('input2.txt'));
 
 console.log('文件解压完成')
+
+// 生成input2.txt文件
 ```
 
 
